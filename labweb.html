@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>JavaScript</title>
+	
+	<meta charset="UTF-8">
+	  <link rel="stylesheet" href="labweb.css"/> 
+	
+</head>
+<body>
+	<h1>Registration</h1>
+	
+</body>
+
+<div class="mainpart">
+	<form id="form">		  
+			<label for="surname">Surname:</label>
+			<input type="text"  id="surname"  placeholder="Enter your surname"/>	<br/><br/><br/>	  
+			<label for="name">Name:</label>
+			<input type="text"  id="name" placeholder="Enter your name"/>	<br><br/><br/>	  
+			<label for="dateOfBirth">Birth Day:</label>				
+					<select  id="Day">
+					  <option selected disabled >Day </option>
+					</select>				
+					<select id="Month">
+					  <option selected disabled>Month</option>
+					</select>				
+					<select  id="Year">
+					  <option selected disabled >Year</option>
+					</select>			
+		<br/><br/><br/>		
+		<label for="sex">Sex</label>  
+			<select id="Sex">				
+				<option selected disabled> Sex</option>				
+				<option id="male"> Man</option>				
+				<option id ="female"> Woman</option>
+			</select><br/><br/><br/>
+			<label for="socialLink">Your website</label>
+			<input type="text"  id="socialLink" placeholder="http://www.exemple.com"/><br/><br/><br/>
+	</div>
+	<div class="foother">
+		<button  type="button"  onclick= "MyFunction()" class="MyButton">Done:)</button>
+	</div>
+	</form>	
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="labweb.js"></script>
+</div>
+</html>
